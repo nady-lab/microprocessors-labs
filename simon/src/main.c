@@ -76,10 +76,10 @@ int main()
         {
             buttonChoice = 0;
         }// end if
-        elif (yellowPressed())
+        else if (yellowPressed())
         {
             buttonChoice = 1;
-        }// end elif
+        }// end else if
         else
         {
             buttonChoice = 2;
