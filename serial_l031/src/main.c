@@ -110,7 +110,8 @@ void printDecimal(uint32_t Value)
 		index--;
 	}
 
-	index = 0 while (index <= 10)
+	index = 0;
+	while (index <= 10)
 	{
 		// if element in the array is a 0 char move to the next index
 		if (DecimalString[index] == '0')
@@ -186,11 +187,12 @@ void printHex(uint32_t Value)
 			DecimalString[index] = (Value % 16) + 'A' - 10;
 		} // end else
 
-		Value = Value / 10;
+		Value = Value / 16;
 		index--;
 	} // end while
 
-	index = 0 while (index <= 10)
+	index = 0;
+	while (index <= 10)
 	{
 		// if element in the array is a 0 char move to the next index
 		if (DecimalString[index] == '0')
